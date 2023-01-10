@@ -13,20 +13,8 @@ jobs:
   test:
     # Operating System
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python:
-          - 3.10.7
-          - 2.7.18
     # Job steps
     steps:
-      - uses: actions/checkout@v2
-      - name: Install python version
-        uses: gabrielfalcao/pyenv-action@v11
-        with:
-          default: "${{ matrix.python }}"
-          command: pip install -U pip  # upgrade pip after installing python
-          
       - uses: actions/checkout@v1
       - run: yarn
         #👇 Adds Chromatic as a step in the workflow
