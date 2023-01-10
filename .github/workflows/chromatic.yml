@@ -25,10 +25,6 @@ jobs:
         with:
           default: "${{ matrix.python }}"
           command: pip install -U pip  # upgrade pip after installing python
-
-      - name: Run tests
-        run: pytest .
-      - uses: actions/checkout@v1
         
       - run: yarn
         #👇 Adds Chromatic as a step in the workflow
