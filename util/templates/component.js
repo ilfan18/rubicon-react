@@ -1,20 +1,17 @@
 module.exports = (componentName) => ({
-	content: `// Generated with util/create-component.js
+  content: `// Generated with util/create-component.js
 import React from "react";
-import styled from "styled-components";
 
 import { ${componentName}Props } from "./${componentName}.types";
 
-const StyledDiv = styled.div\`
-
-\`;
+import "./${componentName}.css";
 
 const ${componentName}: React.FC<${componentName}Props> = ({ foo }) => (
-    <StyledDiv data-testid="${componentName}" className="foo-bar">{foo}</StyledDiv>
-); 
+    <div data-testid="${componentName}" className="foo-bar">{foo}</div>
+);
 
 export default ${componentName};
 
 `,
-	extension: `.tsx`,
+  extension: `.tsx`
 });
