@@ -15,7 +15,8 @@
     "storybook": "start-storybook -p 6006",
     "storybook:export": "build-storybook",
     "generate": "node ./util/create-component",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "chromatic": "npx chromatic --project-token=2476e7df2e9b"
   },
   "repository": {
     "type": "git",
