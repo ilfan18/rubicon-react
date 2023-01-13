@@ -1,12 +1,14 @@
 .test-component {
-  background-color: var(--background);
-  color: var(--font-color);
-  border: 1px solid var(--harvey-black);
-  padding: 16px;
-  width: 360px;
-  text-align: center;
+	font-family: 'Inter';
+	background-color: var(--background);
+	color: var(--font-color);
+	border: 1px solid var(--harvey-black);
+	padding: 16px;
+	width: 360px;
+	font-weight: 800;
+	text-align: center;
 }
 
 .test-component .heading {
-  font-size: var(--heading-font-size);
+	font-size: var(--heading-font-size);
 }
