@@ -35,6 +35,21 @@
 	line-height: 1.25rem;
 }
 
+/** Paragraph **/
+.r-p {
+	font-weight: 400;
+	font-size: 0.75rem;
+	line-height: 1.25rem;
+}
+.r-p.bold {
+	font-weight: 700;
+}
+.r-p.underline {
+	text-decoration-line: underline;
+	text-underline-offset: 0.125rem;
+}
+
+/** Middle **/
 @media all and (min-width: 768px) {
 	.r-dispaly-heading {
 		font-size: 1.9375rem;
@@ -46,7 +61,15 @@
 	.r-h2 {
 		font-size: 1.25rem;
 	}
+	.r-p {
+		font-size: 0.875rem;
+		line-height: 1.25rem;
+	}
+	.r-p.underline {
+		text-underline-offset: 0.1875rem;
+	}
 }
+/** Large **/
 @media all and (min-width: 992px) {
 	.r-dispaly-heading {
 		font-size: 2.375rem;
@@ -60,6 +83,7 @@
 		font-size: 1.3125rem;
 	}
 }
+/** XL **/
 @media all and (min-width: 1200px) {
 	.r-dispaly-heading {
 		font-size: 2.8125rem;
@@ -72,5 +96,9 @@
 	.r-h2 {
 		font-size: 1.4375rem;
 		line-height: 1.75rem;
+	}
+	.r-p {
+		font-size: 1rem;
+		line-height: 1.5rem;
 	}
 }

@@ -23,3 +23,14 @@ export const H5 = () => (
 export const H6 = () => (
   <h6 className="r-h6">Heading 6</h6>
 );
+export const Paragraph = () => (
+  <div>
+    <h2 className="r-h2">Default</h2>
+    <p className="r-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iure, itaque earum sit aperiam impedit animi necessitatibus eaque maxime voluptates quaerat, nam amet assumenda dolor libero praesentium nihil totam facere.</p>
+    <h2 className="r-h2">Bold</h2>
+    <p className="r-p bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iure, itaque earum sit aperiam impedit animi necessitatibus eaque maxime voluptates quaerat, nam amet assumenda dolor libero praesentium nihil totam facere.</p>
+    <h2 className="r-h2">Underline</h2>
+    <p className="r-p underline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iure, itaque earum sit aperiam impedit animi necessitatibus eaque maxime voluptates quaerat, nam amet assumenda dolor libero praesentium nihil totam facere.</p>
+  </div>
+  
+);
