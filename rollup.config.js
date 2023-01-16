@@ -32,6 +32,11 @@ export default {
 		copy({
 			targets: [
 				{
+					src: 'src/reset.css',
+					dest: 'build',
+					rename: 'reset.css',
+				},
+				{
 					src: 'src/index.css',
 					dest: 'build',
 					rename: 'index.css',

@@ -1,3 +1,4 @@
+import '../src/reset.css';
 import '../src/index.css';
 import '../src/colors.css';
 import '../src/fonts.css';
