@@ -52,6 +52,11 @@ export default {
 					rename: 'fonts.css',
 				},
 				{
+					src: 'src/typography.css',
+					dest: 'build',
+					rename: 'typography.css',
+				},
+				{
 					src: 'src/assets',
 					dest: 'build',
 				},
