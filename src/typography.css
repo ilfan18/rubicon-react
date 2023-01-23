@@ -48,11 +48,9 @@ p,
 	font-size: 0.75rem;
 	line-height: 1.25rem;
 }
-p,
 .r-p.bold {
 	font-weight: 700;
 }
-p,
 .r-p.underline {
 	text-decoration-line: underline;
 	text-underline-offset: 0.125rem;
@@ -77,7 +75,6 @@ p,
 		font-size: 0.875rem;
 		line-height: 1.25rem;
 	}
-	p,
 	.r-p.underline {
 		text-underline-offset: 0.1875rem;
 	}
