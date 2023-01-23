@@ -41,10 +41,45 @@ h6,
 	line-height: 1.25rem;
 }
 
+/** Label text **/
+.r-label {
+	font-size: 0.875rem;
+	line-height: 1rem;
+	width: fit-content;
+}
+.r-label.mono {
+	font-family: 'JetBrainsMono';
+}
+.r-label.small {
+	font-size: 0.75rem;
+	line-height: 1rem;
+}
+.r-label.bold {
+	font-weight: 700;
+}
+.r-label.underline {
+	text-decoration-line: underline;
+}
+.r-label.secondary {
+	color: var(--gray-700);
+}
+.r-label.placeholder {
+	color: var(--gray-600);
+}
+.r-label.disabled {
+	color: var(--gray-700);
+}
+.r-label.anchor {
+	color: var(--blue-500);
+}
+.r-label.enverted {
+	color: var(--white);
+	background-color: var(--gray-950);
+}
+
 /** Paragraph **/
 p,
 .r-p {
-	font-weight: 400;
 	font-size: 0.75rem;
 	line-height: 1.25rem;
 }
