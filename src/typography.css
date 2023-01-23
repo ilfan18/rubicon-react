@@ -47,32 +47,32 @@ h6,
 	line-height: 1rem;
 	width: fit-content;
 }
-.r-label.mono {
+.r-label.r-label--mono {
 	font-family: 'JetBrainsMono';
 }
-.r-label.small {
+.r-label.r-label--small {
 	font-size: 0.75rem;
 	line-height: 1rem;
 }
-.r-label.bold {
+.r-label.r-label--bold {
 	font-weight: 700;
 }
-.r-label.underline {
+.r-label.r-label--underline {
 	text-decoration-line: underline;
 }
-.r-label.secondary {
+.r-label.r-label--secondary {
 	color: var(--gray-700);
 }
-.r-label.placeholder {
+.r-label.r-label--placeholder {
 	color: var(--gray-600);
 }
-.r-label.disabled {
+.r-label.r-label--disabled {
 	color: var(--gray-700);
 }
-.r-label.anchor {
+.r-label.r-label--anchor {
 	color: var(--blue-500);
 }
-.r-label.enverted {
+.r-label.r-label--enverted {
 	color: var(--white);
 	background-color: var(--gray-950);
 }
@@ -83,10 +83,10 @@ p,
 	font-size: 0.75rem;
 	line-height: 1.25rem;
 }
-.r-p.bold {
+.r-p.r-p--bold {
 	font-weight: 700;
 }
-.r-p.underline {
+.r-p.r-p--underline {
 	text-decoration-line: underline;
 	text-underline-offset: 0.125rem;
 }
@@ -110,7 +110,7 @@ p,
 		font-size: 0.875rem;
 		line-height: 1.25rem;
 	}
-	.r-p.underline {
+	.r-p.r-p--underline {
 		text-underline-offset: 0.1875rem;
 	}
 }
