@@ -80,3 +80,39 @@ export const LabelText = () => (
     <div className="r-label r-label--mono r-label--small r-label--enverted r-label--bold">UI label mono enverted small bold</div>
   </div> 
 );
+export const Lists = () => (
+  <div>
+    <ul >
+      <li>List item</li>
+      <li>List item
+        <ul >
+          <li>List item
+            <ul>
+              <li>List item</li>
+              <li>List item</li>
+            </ul>
+          </li>
+          <li>List item</li>
+        </ul>
+      </li>
+      <li>List item</li>
+    </ul>
+    <br />
+    <ol >
+      <li>List item</li>
+      <li>List item
+        <ol >
+          <li>List item
+            <ol>
+              <li>List item</li>
+              <li>List item</li>
+            </ol>
+          </li>
+          <li>List item</li>
+        </ol>
+      </li>
+      <li>List item</li>
+    </ol>
+    <br />
+  </div>
+);

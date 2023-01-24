@@ -76,6 +76,16 @@ h6,
 	color: var(--white);
 	background-color: var(--gray-950);
 }
+ul,
+ol {
+	padding-left: 1rem;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+
+ul li::marker {
+	color: var(--gray-900);
+}
 
 /** Paragraph **/
 p,
