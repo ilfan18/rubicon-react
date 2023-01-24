@@ -5,3 +5,6 @@
 	line-height: 1rem;
 	font-feature-settings: 'cv05' on;
 }
+body {
+	font-size: 0.875rem;
+}

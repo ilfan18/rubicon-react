@@ -79,7 +79,6 @@ h6,
 ul,
 ol {
 	padding-left: 1rem;
-	font-size: 0.875rem;
 	line-height: 1.25rem;
 }
 
@@ -90,7 +89,6 @@ ul li::marker {
 /** Paragraph **/
 p,
 .r-p {
-	font-size: 0.75rem;
 	line-height: 1.25rem;
 }
 .r-p.r-p--bold {
